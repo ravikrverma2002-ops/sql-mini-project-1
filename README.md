@@ -1,4 +1,4 @@
-SQL Mini Project 1: SQL Foundations & Database Operations
+# SQL Mini Project 1: SQL Foundations & Database Operations
 
 ## Overview
 
