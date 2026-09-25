@@ -1,6 +1,6 @@
 -- SQL Foundations & Database Creation
 
-DROP DATABASE online_store;
+DROP DATABASE IF EXISTS online_store;
 
 CREATE DATABASE online_store;
 
@@ -92,7 +92,7 @@ VALUES
 (1, 103, '2026-01-13', "Delivered", 4300.2),
 (2, 107, '2026-01-17', "Pending", 31988),
 (3, 104, '2026-01-17', "Delivered", 104990),
-(4, 101, '2026-01-20', "Porocessing", 38700.75),
+(4, 101, '2026-01-20', "Processing", 38700.75),
 (5, 108, '2026-01-21', "Cancelled", 4300.23);
 SELECT * FROM orders;
 
